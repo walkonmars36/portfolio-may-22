@@ -1,7 +1,39 @@
+@use "./variables" as *;
+
 @media screen and (max-width: 768px) {
   body {
     width: 90%;
     background-color: white;
     border: 1px solid green;
+  }
+
+  .header {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo-name {
+      display: flex;
+      align-items: center;
+      column-gap: 0.5em;
+    }
+  }
+
+  .hero {
+    border: 1px solid purple;
+    background-color: #f7fafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3em;
+
+    &__title {
+      width: 70%;
+    }
+
+    &__button {
+      width: 70%;
+    }
   }
 }
