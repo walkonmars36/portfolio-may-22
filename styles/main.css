@@ -33,25 +33,25 @@ p .hero__title--name {
        column-gap: 0.5em;
 }
 
+.hero {
+  border: 1px solid purple;
+  background-color: #f7fafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3em;
+}
+.hero__title {
+  width: 70%;
+}
+.hero__button {
+  width: 70%;
+}
+
 @media screen and (max-width: 768px) {
   body {
     width: 90%;
     background-color: white;
     border: 1px solid green;
-  }
-
-  .hero {
-    border: 1px solid purple;
-    background-color: #f7fafa;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 3em;
-  }
-  .hero__title {
-    width: 70%;
-  }
-  .hero__button {
-    width: 70%;
   }
 }/*# sourceMappingURL=main.css.map */

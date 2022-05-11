@@ -1,28 +1,12 @@
 @use "./variables" as *;
 @use "./fonts" as *;
 @use "./header" as *;
+@use "./hero" as *;
 
 @media screen and (max-width: 768px) {
   body {
     width: 90%;
     background-color: white;
     border: 1px solid green;
-  }
-
-  .hero {
-    border: 1px solid purple;
-    background-color: #f7fafa;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 3em;
-
-    &__title {
-      width: 70%;
-    }
-
-    &__button {
-      width: 70%;
-    }
   }
 }
