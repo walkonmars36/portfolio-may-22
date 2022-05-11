@@ -1,24 +1,12 @@
 @use "./variables" as *;
 @use "./fonts" as *;
+@use "./header" as *;
 
 @media screen and (max-width: 768px) {
   body {
     width: 90%;
     background-color: white;
     border: 1px solid green;
-  }
-
-  .header {
-    border: 1px solid blue;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    &__logo-name {
-      display: flex;
-      align-items: center;
-      column-gap: 0.5em;
-    }
   }
 
   .hero {

@@ -11,5 +11,14 @@ p {
 
 h1,
 h2 {
-  color: $primary-color;
+  color: $primary-color-navy;
+}
+
+h3 {
+  font-family: $secondary-font;
+  color: $secondary-color-slate;
+}
+
+p .hero__title--name {
+  font-weight: 500;
 }

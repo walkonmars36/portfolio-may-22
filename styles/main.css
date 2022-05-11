@@ -11,24 +11,33 @@ h2 {
   color: #272643;
 }
 
+h3 {
+  font-family: "DM Sans", sans-serif;
+  color: slategrey;
+}
+
+p .hero__title--name {
+  font-weight: 500;
+}
+
+.header {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo-name {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 0.5em;
+       column-gap: 0.5em;
+}
+
 @media screen and (max-width: 768px) {
   body {
     width: 90%;
     background-color: white;
     border: 1px solid green;
-  }
-
-  .header {
-    border: 1px solid blue;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .header__logo-name {
-    display: flex;
-    align-items: center;
-    -moz-column-gap: 0.5em;
-         column-gap: 0.5em;
   }
 
   .hero {
