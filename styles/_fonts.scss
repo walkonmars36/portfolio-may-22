@@ -1,0 +1,15 @@
+@use "./variables" as *;
+
+// fonts
+
+h1,
+h2,
+h4,
+p {
+  font-family: $primary-font;
+}
+
+h1,
+h2 {
+  color: $primary-color;
+}

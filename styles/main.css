@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@400;500;600;700&display=swap");
+h1,
+h2,
+h4,
+p {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2 {
+  color: #272643;
+}
+
 @media screen and (max-width: 768px) {
   body {
     width: 90%;
