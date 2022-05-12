@@ -144,6 +144,9 @@ h4 {
   display: flex;
   justify-content: center;
 }
+.projects__code {
+  display: flex;
+}
 
 .footer {
   width: 90%;
