@@ -16,15 +16,12 @@ h3 {
   color: slategrey;
 }
 
-p .hero__title--name {
-  font-weight: 500;
-}
-
 .header {
   border: 1px solid blue;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1.5625em 0.6em 1.5625em 0.3em;
 }
 .header__logo-name {
   display: flex;
@@ -36,22 +33,39 @@ p .hero__title--name {
 .hero {
   border: 1px solid purple;
   background-color: #f7fafa;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 3em;
 }
 .hero__title {
-  width: 70%;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  align-items: flex-start;
+  padding: 7.6875em 0 3em 0.9em;
+}
+.hero__title--name {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: slategrey;
+}
+.hero__title--heading {
+  font-weight: 600;
+  font-size: 4rem;
+  padding: 0.5em 0 1em;
 }
 .hero__button {
   width: 70%;
 }
 
 @media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   body {
     width: 90%;
+    margin-inline: auto;
     background-color: white;
     border: 1px solid green;
   }
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=index.css.map */
