@@ -1,4 +1,9 @@
+@use "./variables" as *;
+
+@use "./mixins" as *;
+
 .hero {
+  @include mobile;
   border: 1px solid purple;
   background-color: #f7fafa;
 

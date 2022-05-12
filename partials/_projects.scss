@@ -1,1 +1,6 @@
 // PROJECTS SECTION
+@use "./mixins" as *;
+
+.projects {
+  @include mobile;
+}

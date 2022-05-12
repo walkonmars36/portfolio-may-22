@@ -1,18 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@400;500;600;700&display=swap");
-@media screen and (max-width: 768px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    width: 90%;
-    margin-inline: auto;
-    background-color: white;
-    border: 1px solid green;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 h1,
 h2,
 h4,
@@ -31,7 +23,9 @@ h3 {
 }
 
 .header {
-  border: 1px solid blue;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 48rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,6 +39,9 @@ h3 {
 }
 
 .hero {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 48rem;
   border: 1px solid purple;
   background-color: #f7fafa;
 }
@@ -67,4 +64,17 @@ h3 {
 }
 .hero__button {
   width: 70%;
+}
+
+.technical-skills {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 48rem;
+  border: 1px solid green;
+}
+
+.projects {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 48rem;
 }/*# sourceMappingURL=main.css.map */

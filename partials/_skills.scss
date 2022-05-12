@@ -1,1 +1,7 @@
 // SKILLS SECTION SPECIFIC
+@use "./mixins" as *;
+
+.technical-skills {
+  @include mobile;
+  border: 1px solid green;
+}
