@@ -3,3 +3,13 @@
   margin: 0 auto;
   max-width: $max-width;
 }
+
+@mixin center-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+@mixin h2-margin-top {
+  margin-top: 0.5rem;
+}

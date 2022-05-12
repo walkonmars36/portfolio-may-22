@@ -6,28 +6,44 @@
   @include mobile;
   border: 1px solid purple;
   background-color: #f7fafa;
+  padding-left: 2.3125em;
+  padding-right: 2.0625em;
+  padding-bottom: 6.25em;
 
   &__title {
     display: flex;
     flex-direction: column;
     width: 60vw;
     align-items: flex-start;
-    padding: 7.6875em 0 3em 0.9em;
+    padding: 7.6875em 0 0 0.9em;
 
-    &--name {
+    &__name {
       font-weight: 500;
       font-size: 1.25rem;
       color: $secondary-color-slate;
     }
 
-    &--heading {
+    &__heading {
       font-weight: 600;
-      font-size: 4rem;
+      font-size: $font-h1;
       padding: 0.5em 0 1em;
     }
   }
 
   &__button {
-    width: 70%;
+    &--container {
+      display: flex;
+      justify-content: center;
+    }
+
+    font-family: $primary-font;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 1.6875em 3em;
+    background-color: $color-aqua;
+    border: 2px solid $primary-color-navy;
+    border-radius: 7px;
+
+    box-shadow: 2px 3px $primary-color-navy;
   }
 }

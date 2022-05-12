@@ -1,0 +1,11 @@
+@use "./mixins" as *;
+@use "./variables" as *;
+
+.about-me {
+  @include mobile;
+  border: 1px solid blue;
+
+  &__header {
+    font-size: $font-h2-about;
+  }
+}

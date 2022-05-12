@@ -1,7 +1,21 @@
 // SKILLS SECTION SPECIFIC
 @use "./mixins" as *;
+@use "./variables" as *;
 
 .technical-skills {
   @include mobile;
   border: 1px solid green;
+
+  &__logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 4.6875em;
+    margin-top: 5.5em;
+  }
+
+  &__header {
+    @include center-heading;
+    font-size: $font-h2;
+  }
 }

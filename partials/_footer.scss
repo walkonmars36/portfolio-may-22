@@ -1,2 +1,19 @@
 // FOOTER SECTION
 @use "./mixins" as *;
+@use "./variables" as *;
+
+.footer {
+  @include mobile;
+
+  background-color: $primary-color-navy;
+  padding: 4em 0;
+  // text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625em;
+
+  &__logos {
+  }
+}

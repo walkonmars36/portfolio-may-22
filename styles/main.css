@@ -5,6 +5,19 @@
   box-sizing: border-box;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 h1,
 h2,
 h4,
@@ -20,6 +33,11 @@ h2 {
 h3 {
   font-family: "DM Sans", sans-serif;
   color: slategrey;
+}
+
+h4 {
+  font-weight: 600;
+  color: #bae8e8;
 }
 
 .header {
@@ -44,26 +62,40 @@ h3 {
   max-width: 48rem;
   border: 1px solid purple;
   background-color: #f7fafa;
+  padding-left: 2.3125em;
+  padding-right: 2.0625em;
+  padding-bottom: 6.25em;
 }
 .hero__title {
   display: flex;
   flex-direction: column;
   width: 60vw;
   align-items: flex-start;
-  padding: 7.6875em 0 3em 0.9em;
+  padding: 7.6875em 0 0 0.9em;
 }
-.hero__title--name {
+.hero__title__name {
   font-weight: 500;
   font-size: 1.25rem;
   color: slategrey;
 }
-.hero__title--heading {
+.hero__title__heading {
   font-weight: 600;
   font-size: 4rem;
   padding: 0.5em 0 1em;
 }
 .hero__button {
-  width: 70%;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 1.6875em 3em;
+  background-color: #bae8e8;
+  border: 2px solid #272643;
+  border-radius: 7px;
+  box-shadow: 2px 3px #272643;
+}
+.hero__button--container {
+  display: flex;
+  justify-content: center;
 }
 
 .technical-skills {
@@ -72,9 +104,64 @@ h3 {
   max-width: 48rem;
   border: 1px solid green;
 }
+.technical-skills__logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  row-gap: 4.6875em;
+  margin-top: 5.5em;
+}
+.technical-skills__header {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  font-size: 2rem;
+}
 
 .projects {
   width: 90%;
   margin: 0 auto;
   max-width: 48rem;
+  border: 1px solid purple;
+}
+.projects__heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  font-size: 2rem;
+}
+.projects__heading--bigger {
+  font-size: 2.125rem;
+  margin-top: 0.5rem;
+}
+.projects__sub-heading {
+  margin-top: 2.375rem;
+}
+.projects__client-project--image {
+  margin-top: 5.5em;
+  background-color: #e3f6f5;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 48rem;
+  background-color: #272643;
+  padding: 4em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625em;
+}
+.about-me {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 48rem;
+  border: 1px solid blue;
+}
+.about-me__header {
+  font-size: 3rem;
 }/*# sourceMappingURL=main.css.map */
