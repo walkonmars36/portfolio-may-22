@@ -1,7 +1,7 @@
-@use "./variables" as *;
-@use "./fonts" as *;
-@use "./header" as *;
-@use "./hero" as *;
+@use "../partials/variables" as *;
+@use "../partials/fonts" as *;
+@use "../partials/header" as *;
+@use "../partials/hero" as *;
 
 @media screen and (max-width: 768px) {
   * {
