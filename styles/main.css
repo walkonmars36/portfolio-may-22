@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@400;500;600;700&display=swap");
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 90%;
+    margin-inline: auto;
+    background-color: white;
+    border: 1px solid green;
+  }
+}
 h1,
 h2,
 h4,
@@ -53,19 +67,4 @@ h3 {
 }
 .hero__button {
   width: 70%;
-}
-
-@media screen and (max-width: 768px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    width: 90%;
-    margin-inline: auto;
-    background-color: white;
-    border: 1px solid green;
-  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,19 +1,5 @@
-@use "../partials/variables" as *;
-@use "../partials/fonts" as *;
-@use "../partials/header" as *;
-@use "../partials/hero" as *;
-
-@media screen and (max-width: 768px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    width: 90%;
-    margin-inline: auto;
-    background-color: white;
-    border: 1px solid green;
-  }
-}
+@use "../partials/base";
+@use "../partials/variables";
+@use "../partials/fonts";
+@use "../partials/header";
+@use "../partials/hero";
