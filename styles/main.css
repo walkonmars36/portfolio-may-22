@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter:wght@400;500;600;700&display=swap");
+h1,
+h2,
+h4,
+p {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2 {
+  color: #272643;
+}
+
+h3 {
+  font-family: "DM Sans", sans-serif;
+  color: slategrey;
+}
+
+.header {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5625em 0.6em 1.5625em 0.3em;
+}
+.header__logo-name {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 0.5em;
+       column-gap: 0.5em;
+}
+
+.hero {
+  border: 1px solid purple;
+  background-color: #f7fafa;
+}
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  align-items: flex-start;
+  padding: 7.6875em 0 3em 0.9em;
+}
+.hero__title--name {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: slategrey;
+}
+.hero__title--heading {
+  font-weight: 600;
+  font-size: 4rem;
+  padding: 0.5em 0 1em;
+}
+.hero__button {
+  width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 90%;
+    margin-inline: auto;
+    background-color: white;
+    border: 1px solid green;
+  }
+}/*# sourceMappingURL=main.css.map */
