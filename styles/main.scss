@@ -1,4 +1,4 @@
-@use "../partials/base";
+@use "../partials/mixins";
 @use "../partials/variables";
 @use "../partials/fonts";
 @use "../partials/header";
@@ -6,3 +6,4 @@
 @use "../partials/skills";
 @use "../partials/projects";
 @use "../partials/footer";
+@use "../partials/reset";
