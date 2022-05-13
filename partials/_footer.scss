@@ -9,8 +9,20 @@
   padding: 4em 0;
   margin-top: 6.25rem;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625em;
+  &__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625em;
+  }
+
+  &__email {
+    color: $color-white;
+    font-family: $primary-font;
+    font-weight: 400;
+    font-size: $text-email;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0.5rem;
+  }
 }

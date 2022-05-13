@@ -1,2 +1,7 @@
 // COMPONENTS
 @use "../partials/variables" as *;
+@use "./mixins" as *;
+
+span {
+  @include undershadow;
+}

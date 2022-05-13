@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 @mixin mobile($width: 90%, $max-width: 48rem) {
   width: $width;
   margin: 0 auto;
@@ -10,6 +12,18 @@
   margin-top: 7rem;
 }
 
-@mixin h2-margin-top {
-  // margin-top: 0.4rem;
+@mixin h2-margin {
+  margin: 0.3rem 0 1.625rem;
+}
+
+@mixin placeholder-img {
+  background-color: $color-pale-aqua;
+  margin-top: 5.5em;
+  width: 100%;
+  height: 18rem;
+}
+
+@mixin undershadow {
+  padding: 0 2px;
+  box-shadow: inset 0 -20px 0 0 $color-aqua;
 }

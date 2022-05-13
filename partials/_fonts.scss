@@ -10,6 +10,8 @@ p {
 h1,
 h2 {
   color: $primary-color-navy;
+  font-size: $font-h2;
+  font-weight: 600;
 }
 
 h3 {
@@ -20,4 +22,12 @@ h3 {
 h4 {
   font-weight: 600;
   color: $color-aqua;
+}
+
+p {
+  font-weight: 400;
+  color: $secondary-color-slate;
+  text-align: justify;
+  text-justify: newspaper;
+  line-height: 1.5;
 }

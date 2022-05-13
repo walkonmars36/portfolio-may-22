@@ -4,16 +4,13 @@
 
 .projects {
   @include mobile;
-  border: 1px solid purple;
 
   &__heading {
     @include center-heading;
 
-    font-size: $font-h2;
-
     &--bigger {
       font-size: $font-h2-bigger;
-      @include h2-margin-top;
+      @include h2-margin;
     }
   }
 
@@ -21,12 +18,20 @@
     margin-top: 2.375rem;
   }
 
-  &__client-project--image {
+  &__client-project {
     margin-top: 5.5em;
     background-color: $color-pale-aqua;
     padding-top: 5em;
     display: flex;
     justify-content: center;
+  }
+
+  &__client-project--image {
+    width: 80%;
+  }
+
+  &__details {
+    margin-top: 2.375rem;
   }
 
   &__code {
@@ -36,6 +41,18 @@
       display: flex;
       align-items: center;
       column-gap: 0.5em;
+
+      margin-top: 1.875rem;
     }
+
+    &--text {
+      font-size: $font-code;
+      color: $primary-color-navy;
+      font-weight: 600;
+    }
+  }
+
+  &__placeholder-image {
+    @include placeholder-img;
   }
 }
