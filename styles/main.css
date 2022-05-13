@@ -61,16 +61,12 @@ h4 {
   margin: 0 auto;
   max-width: 48rem;
   background-color: #f7fafa;
-  padding-left: 2.3125em;
-  padding-right: 2.0625em;
   padding-bottom: 6.25em;
-}
-.hero__title {
   display: flex;
   flex-direction: column;
-  width: 60vw;
-  align-items: flex-start;
-  padding: 7.6875em 0 0 0.9em;
+}
+.hero__title {
+  padding: 7.6875em 2em 0.9em;
 }
 .hero__title__name {
   font-weight: 500;
@@ -79,18 +75,22 @@ h4 {
 }
 .hero__title__heading {
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3.5rem;
   padding: 0.5em 0 1em;
 }
 .hero__button {
+  display: flex;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
-  padding: 1.6875em 3em;
   background-color: #bae8e8;
   border: 2px solid #272643;
   border-radius: 7px;
+  padding: 1em 1em;
   box-shadow: 2px 3px #272643;
+}
+.hero__button--arrow {
+  margin-left: 0.5em;
 }
 .hero__button--container {
   display: flex;
