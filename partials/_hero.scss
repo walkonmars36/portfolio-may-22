@@ -4,8 +4,8 @@
 
 .hero {
   @include mobile;
-  border: 1px solid purple;
-  background-color: #f7fafa;
+
+  background-color: $hero-bg-color;
   padding-left: 2.3125em;
   padding-right: 2.0625em;
   padding-bottom: 6.25em;

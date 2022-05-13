@@ -60,7 +60,6 @@ h4 {
   width: 90%;
   margin: 0 auto;
   max-width: 48rem;
-  border: 1px solid purple;
   background-color: #f7fafa;
   padding-left: 2.3125em;
   padding-right: 2.0625em;
@@ -102,7 +101,6 @@ h4 {
   width: 90%;
   margin: 0 auto;
   max-width: 48rem;
-  border: 1px solid green;
 }
 .technical-skills__logos {
   display: grid;
