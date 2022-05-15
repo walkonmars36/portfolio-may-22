@@ -94,6 +94,7 @@ p {
 }
 .hero__button {
   display: flex;
+  color: #272643;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;

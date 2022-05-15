@@ -9,7 +9,7 @@
     @include center-heading;
 
     &--bigger {
-      font-size: $font-h2-bigger;
+      font-size: $text-h2-bigger;
       @include h2-margin;
     }
   }
@@ -46,7 +46,7 @@
     }
 
     &--text {
-      font-size: $font-code;
+      font-size: $text-code;
       color: $primary-color-navy;
       font-weight: 600;
     }

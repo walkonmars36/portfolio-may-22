@@ -22,14 +22,14 @@
 
     &__heading {
       font-weight: 600;
-      font-size: $font-h1;
+      font-size: $text-h1;
       padding: 0.5em 0 1em;
     }
   }
 
   &__button {
     display: flex;
-
+    color: $primary-color-navy;
     font-family: $primary-font;
     font-weight: 700;
     font-size: 1.25rem;
