@@ -216,10 +216,14 @@ p {
 }
 .projects__client-project--image {
   width: 80%;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
+}
+@media (min-width: 48rem) {
+  .projects__client-project--image {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
 .projects__details {
   margin-top: 2.375rem;
@@ -294,6 +298,9 @@ span {
 .about-me__header {
   font-size: 3rem;
   text-align: center;
+}
+.about-me__info :nth-child(2) {
+  margin-top: 1.5rem;
 }
 @media (min-width: 48rem) {
   .about-me__info :nth-child(2) {

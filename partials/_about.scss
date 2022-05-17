@@ -21,6 +21,10 @@
   }
 
   &__info {
+    :nth-child(2) {
+      margin-top: 1.5rem;
+    }
+
     @include tablet {
       :nth-child(2) {
         margin-top: 1rem;
