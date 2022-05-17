@@ -262,6 +262,11 @@ p {
   padding: 4em 0;
   margin-top: 6.25rem;
 }
+@media (min-width: 48rem) {
+  .footer {
+    margin-top: 10rem;
+  }
+}
 .footer__logos {
   display: flex;
   justify-content: center;
