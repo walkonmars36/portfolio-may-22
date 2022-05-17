@@ -85,6 +85,13 @@ p {
 .hero__title {
   padding: 7.6875em 2em 0.9em;
 }
+@media (min-width: 48rem) {
+  .hero__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .hero__title__name {
   font-weight: 500;
   font-size: 1.25rem;
@@ -94,6 +101,13 @@ p {
   font-weight: 600;
   font-size: 3.5rem;
   padding: 0.5em 0 1em;
+}
+@media (min-width: 48rem) {
+  .hero__title__heading {
+    display: block;
+    text-align: center;
+    padding-inline: 1em;
+  }
 }
 .hero__button {
   display: flex;
@@ -127,6 +141,14 @@ p {
   row-gap: 4.6875em;
   margin-top: 5.5em;
 }
+@media (min-width: 48rem) {
+  .technical-skills__logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+  }
+}
 .technical-skills__header {
   display: flex;
   justify-content: center;
@@ -138,6 +160,31 @@ p {
   width: 90%;
   margin: 0 auto;
   max-width: 48rem;
+}
+.projects__tablet-and-larger {
+  display: none;
+}
+@media (min-width: 48rem) {
+  .projects__tablet-and-larger {
+    display: block;
+  }
+  .projects__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+  .projects__card--1 {
+    grid-area: 1/1;
+  }
+  .projects__card--2 {
+    grid-area: 1/2;
+  }
+  .projects__card--3 {
+    grid-area: 2/1;
+  }
+  .projects__card--4 {
+    grid-area: 2/2;
+  }
 }
 .projects__heading {
   display: flex;
@@ -158,8 +205,21 @@ p {
   display: flex;
   justify-content: center;
 }
+@media (min-width: 48rem) {
+  .projects__client-project {
+    display: block;
+    padding-top: 0;
+    width: 100%;
+    height: 18rem;
+    position: relative;
+  }
+}
 .projects__client-project--image {
   width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
 }
 .projects__details {
   margin-top: 2.375rem;
@@ -190,6 +250,7 @@ p {
   width: 90%;
   margin: 0 auto;
   max-width: 48rem;
+  width: 100%;
   background-color: #272643;
   padding: 4em 0;
   margin-top: 6.25rem;
@@ -221,9 +282,23 @@ span {
   max-width: 48rem;
   margin-top: 7rem;
 }
+@media (min-width: 48rem) {
+  .about-me__container {
+    display: flex;
+    flex-direction: row-reverse;
+    -moz-column-gap: 1.5em;
+         column-gap: 1.5em;
+    margin-top: 2rem;
+  }
+}
 .about-me__header {
   font-size: 3rem;
   text-align: center;
+}
+@media (min-width: 48rem) {
+  .about-me__info :nth-child(2) {
+    margin-top: 1rem;
+  }
 }
 .about-me__text {
   margin-top: 4rem;

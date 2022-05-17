@@ -5,6 +5,40 @@
 .projects {
   @include mobile;
 
+  &__tablet-and-larger {
+    display: none;
+  }
+
+  @include tablet {
+    &__tablet-and-larger {
+      display: block;
+    }
+
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1em;
+    }
+
+    &__card {
+      &--1 {
+        grid-area: 1 / 1;
+      }
+
+      &--2 {
+        grid-area: 1 / 2;
+      }
+
+      &--3 {
+        grid-area: 2 / 1;
+      }
+
+      &--4 {
+        grid-area: 2 / 2;
+      }
+    }
+  }
+
   &__heading {
     @include center-heading;
 
@@ -24,10 +58,22 @@
     padding-top: 5em;
     display: flex;
     justify-content: center;
+
+    @include tablet {
+      display: block;
+      padding-top: 0;
+      width: 100%;
+      height: 18rem;
+      position: relative;
+    }
   }
 
   &__client-project--image {
     width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
   }
 
   &__details {

@@ -6,9 +6,26 @@
 
   margin-top: 7rem;
 
+  &__container {
+    @include tablet {
+      display: flex;
+      flex-direction: row-reverse;
+      column-gap: 1.5em;
+      margin-top: 2rem;
+    }
+  }
+
   &__header {
     font-size: $text-h2-about;
     text-align: center;
+  }
+
+  &__info {
+    @include tablet {
+      :nth-child(2) {
+        margin-top: 1rem;
+      }
+    }
   }
 
   &__text {

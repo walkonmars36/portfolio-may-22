@@ -11,6 +11,13 @@
     justify-items: center;
     row-gap: 4.6875em;
     margin-top: 5.5em;
+
+    @include tablet {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 5em;
+    }
   }
 
   &__header {

@@ -6,6 +6,12 @@
   max-width: $max-width;
 }
 
+@mixin tablet($width: 48rem) {
+  @media (min-width: $width) {
+    @content;
+  }
+}
+
 @mixin center-heading {
   display: flex;
   justify-content: center;
