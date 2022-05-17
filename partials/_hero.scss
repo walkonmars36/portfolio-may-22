@@ -51,6 +51,10 @@
     padding: 1em 1em;
     box-shadow: 2px 3px $primary-color-navy;
 
+    &:hover {
+      background-color: $color-pale-aqua;
+    }
+
     &--arrow {
       margin-left: 0.5em;
     }
